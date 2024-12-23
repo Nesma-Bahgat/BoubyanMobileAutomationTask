@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-23T18:24:47Z" name="DemoAutomationSuite" finished-at="2024-12-23T18:25:38Z" duration-ms="51552">
+    <groups>
+    </groups>
+    <test started-at="2024-12-23T18:24:47Z" name="DemoAutomationTest" finished-at="2024-12-23T18:25:38Z" duration-ms="51552">
+      <class name="DemoTask">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:DemoTask@70325d20]" started-at="2024-12-23T20:24:47Z" name="setUp" finished-at="2024-12-23T20:24:57Z" duration-ms="10590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithEmptyData()[pri:1, instance:DemoTask@70325d20]" started-at="2024-12-23T20:24:57Z" name="loginWithEmptyData" finished-at="2024-12-23T20:25:04Z" duration-ms="6674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyData -->
+        <test-method signature="loginWithEmptyPassword()[pri:2, instance:DemoTask@70325d20]" started-at="2024-12-23T20:25:04Z" name="loginWithEmptyPassword" finished-at="2024-12-23T20:25:07Z" duration-ms="3265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyPassword -->
+        <test-method signature="loginWithEmptyUserName()[pri:3, instance:DemoTask@70325d20]" started-at="2024-12-23T20:25:07Z" name="loginWithEmptyUserName" finished-at="2024-12-23T20:25:11Z" duration-ms="3627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyUserName -->
+        <test-method signature="loginwithvalidUserNameAndInvalidPassword()[pri:4, instance:DemoTask@70325d20]" started-at="2024-12-23T20:25:11Z" name="loginwithvalidUserNameAndInvalidPassword" finished-at="2024-12-23T20:25:16Z" duration-ms="5737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidUserNameAndInvalidPassword -->
+        <test-method signature="loginwithUserDoesNotExist()[pri:5, instance:DemoTask@70325d20]" started-at="2024-12-23T20:25:16Z" name="loginwithUserDoesNotExist" finished-at="2024-12-23T20:25:21Z" duration-ms="4503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithUserDoesNotExist -->
+        <test-method signature="loginWithBlockedUser()[pri:6, instance:DemoTask@70325d20]" started-at="2024-12-23T20:25:21Z" name="loginWithBlockedUser" finished-at="2024-12-23T20:25:26Z" duration-ms="5256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBlockedUser -->
+        <test-method signature="loginWithValidCredentials()[pri:7, instance:DemoTask@70325d20]" started-at="2024-12-23T20:25:26Z" name="loginWithValidCredentials" finished-at="2024-12-23T20:25:31Z" duration-ms="5225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method signature="logOut()[pri:8, instance:DemoTask@70325d20]" started-at="2024-12-23T20:25:31Z" name="logOut" finished-at="2024-12-23T20:25:37Z" duration-ms="5855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoTask@70325d20]" started-at="2024-12-23T20:25:37Z" name="tearDown" finished-at="2024-12-23T20:25:38Z" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DemoTask -->
+    </test> <!-- DemoAutomationTest -->
+  </suite> <!-- DemoAutomationSuite -->
+</testng-results>
